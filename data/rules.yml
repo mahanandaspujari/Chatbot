@@ -1,0 +1,94 @@
+version: "3.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+- rule: clg intent
+  steps:
+  - intent: clg
+  - action: utter_clg
+
+- rule: owner intent
+  steps:
+  - intent: owner
+  - action: utter_owner
+
+- rule: address intent
+  steps:
+  - intent: address
+  - action: utter_address
+
+- rule: package intent
+  steps:
+  - intent: package
+  - action: utter_package
+
+- rule: library intent
+  steps:
+  - intent: library
+  - action: utter_library
+
+- rule: staff intent
+  steps:
+  - intent: staff
+  - action: utter_staff
+
+- rule: hod intent
+  steps:
+  - intent: hod
+  - action: utter_hod
+
+- rule: hodnum intent
+  steps:
+  - intent: hodnum
+  - action: utter_hodnum
+
+- rule: SEsyllabus intent
+  steps:
+  - intent: SEsyllabus
+  - action: utter_SEsyllabus
+
+- rule: SEschedule intent
+  steps:
+  - intent: SEschedule
+  - action: utter_SEschedule
+
+- rule: TEsyllabus intent
+  steps:
+  - intent: TEsyllabus
+  - action: utter_TEsyllabus
+
+- rule: TEschedule intent
+  steps:
+  - intent: TEschedule
+  - action: utter_TEschedule
+
+- rule: BEsyllabus intent
+  steps:
+  - intent: BEsyllabus
+  - action: utter_BEsyllabus
+
+- rule: BEschedule intent
+  steps:
+  - intent: BEschedule
+  - action: utter_BEschedule
+
+- rule: MEsyllabus intent
+  steps:
+  - intent: MEsyllabus
+  - action: utter_MEsyllabus

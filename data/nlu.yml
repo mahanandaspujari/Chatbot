@@ -1,0 +1,192 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: clg
+  examples: |
+    - Is PICT  Pune a [private or a public] college?
+    - is PICT private  or [public] college?
+    - is PICT [private] or public?
+    - Is PICT a [government] college?
+    - Is PICT [autonomous] college?
+    - Is PICT a deemed college?
+    - private or public
+    
+
+- intent: owner
+  examples: |
+    - Who is founder of PICT  College?
+    - Who is founder of PICT?
+    - Who is the owner of PICT Pune?
+    - founder of PICT
+    - founder
+
+- intent: address
+  examples: |
+    - What is address of PICT Pune college?
+    - What is address of PICT?
+    - address of PICT
+    - address
+
+- intent: package
+  examples: |
+    - What is the highest package of PICT?
+    - highest package of PICT?
+    - highest package
+
+- intent: library
+  examples: |
+    - how many laboratories in computer department?
+    - how many laboratories?
+    - laboratories
+    - lab
+    - labs
+
+- intent: staff
+  examples: |
+    - how many teaching staff in computer department?
+    - how many teaching staff?
+    - teaching staff
+
+- intent: hod
+  examples: |
+    - Who is HOD of Computer department?
+    - Who are the HODs of computer department?
+    - HOD of Computer department
+    - HOD
+
+- intent: hodnum
+  examples: |
+    - What is HODs mobile number?
+    - HODs mobile number
+    - mobile number
+    - hod number
+
+- intent: SEsyllabus
+  examples: |
+    - What is the SE Computer Engineering Syllabus?
+    - SE computer engg syllabus
+
+- intent: SEschedule
+  examples: |
+    - What is the SE Computer Engineering Schedule?
+    - SE computer engg Schedule 
+    - What is the SE Computer Engineering timetable?
+    - SE computer engg timetable
+
+- intent: TEsyllabus
+  examples: |
+    - What is the TE Computer Engineering Syllabus?
+    - TE computer engg syllabus
+
+- intent: TEschedule
+  examples: |
+    - What is the TE Computer Engineering Schedule?
+    - TE computer engg Schedule 
+    - What is the TE Computer Engineering timetable?
+    - TE computer engg timetable
+
+- intent: BEsyllabus
+  examples: |
+    - What is the BE Computer Engineering Syllabus?
+    - BE computer engg syllabus
+
+- intent: BEschedule
+  examples: |
+    - What is the BE Computer Engineering Schedule?
+    - BE computer engg Schedule 
+    - What is the BE Computer Engineering timetable?
+    - BE computer engg timetable
+
+- intent: MEsyllabus
+  examples: |
+    - What is the ME Computer Engineering Syllabus?
+    - ME computer engg syllabus

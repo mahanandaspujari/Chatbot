@@ -1,0 +1,117 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - clg
+  - owner
+  - address
+  - package
+  - library
+  - staff
+  - hod
+  - hodnum
+  - SEsyllabus
+  - SEschedule
+  - TEsyllabus
+  - TEschedule
+  - BEsyllabus
+  - BEschedule
+  - MEsyllabus
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_clg:
+  
+  - text: "PICT Pune is a private unaided  engineering  college. "
+
+  utter_owner:
+  - text: "Pune Institute of Computer Technology (PICT) was established in 1983 under the aegis of Society for Computer Technology and Research (SCTR) with an objective to contribute to higher technical education and research. Great Visionaries and Nobel- towering personalities like Shri. Gopal Krishna, Shri. N. Ramakrishna,and Shri. R. S. Kothavale are amongst the founder members of PICT."
+
+  utter_address:
+  - text: "Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043"
+
+  utter_package:
+  - text: "The highest salary package offered is 38 LPA, and the average salary package offered is 8 LPA, and the lowest salary package offered is 4 LPA. "
+
+  utter_library:
+  - text: "There are 15 well-equipped laboratories in the department."
+
+  utter_staff:
+  - text: "There are 54 Teaching and 12 Technical Staff members in the department."
+
+  utter_hod:
+  - text: "Dr. Geetanjali V. Kale"
+
+  utter_hodnum:
+  - text: "020-24371101"
+
+  utter_SEsyllabus:
+  - text: Here is the link for [SE Computer Engineering syllabus] (https://pict.edu/time_table_syllabus/CE/SE-Computer-Engg-2019-Patt.pdf)
+
+  utter_SEschedule:
+  - text: Here is the link for [SE Computer Engineering schedule\timetable] (https://pict.edu/time_table_syllabus/CE/SE%20all%20class.pdf)
+
+  utter_TEsyllabus:
+  - text: Here is the link for [TE Computer Engineering syllabus] (https://pict.edu/time_table_syllabus/CE/TE_Computer_2019_Course_Syllabus.pdf)
+
+  utter_TEschedule:
+  - text: Here is the link for [TE Computer Engineering schedule\timetable] (https://pict.edu/time_table_syllabus/CE/TE%20all%20class.pdf)
+
+  utter_BEsyllabus:
+  - text: Here is the link for [BE Computer Engineering syllabus] (https://pict.edu/time_table_syllabus/CE/BE-Computer-2015-Course.pdf)
+
+  utter_BEschedule:
+  - text: Here is the link for [BE Computer Engineering schedule\timetable] (https://pict.edu/time_table_syllabus/CE/BE%20all%20class.pdf)
+
+  utter_MEsyllabus:
+  - text: Here is the link for [ME Computer Engineering syllabus] (https://pict.edu/time_table_syllabus/CE/ME_Computer_Engg_syllabus.pdf)
+
+actions:
+
+- action_play_rps
+- '...'
+- utter_greet
+#- utter_subscribed
+- utter_clg
+- utter_owner
+- utter_address
+- utter_package
+- utter_library
+- utter_staff
+- utter_hod
+- utter_SEsyllabus
+- utter_SEschedule
+- utter_TEsyllabus
+- utter_TEschedule
+- utter_BEsyllabus
+- utter_BEschedule
+- utter_MEsyllabus
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

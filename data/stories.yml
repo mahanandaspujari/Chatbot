@@ -1,0 +1,51 @@
+version: "3.0"
+
+stories:
+
+- story: clg and owner
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  - intent: affirm
+  - action: utter_happy
+  - intent: clg
+  - action: utter_clg
+  - intent: owner
+  - action: utter_owner
+  - intent: address
+  - action: utter_address
+  - intent: package
+  - action: utter_package
+  - intent: library
+  - action: utter_library
+  - intent: staff
+  - action: utter_staff
+  - intent: hod
+  - action: utter_hod
+  - intent: hodnum
+  - action: utter_hodnum
+  - intent: SEsyllabus
+  - action: utter_SEsyllabus
+  - intent: SEschedule
+  - action: utter_SEschedule
+  - intent: TEsyllabus
+  - action: utter_TEsyllabus
+  - intent: TEschedule
+  - action: utter_TEschedule
+  - intent: BEsyllabus
+  - action: utter_BEsyllabus
+  - intent: BEschedule
+  - action: utter_BEschedule
+  - intent: MEsyllabus
+  - action: utter_MEsyllabus
+
+
+
+  
